@@ -4,6 +4,7 @@ import { NavLink } from 'react-router-dom';
 export default function Navbar({containerStyles ,onClick}) {
   const navLinks =[
     {path: '/', title: 'Home'},
+    {path: '/collection', title: 'Collection'},
     {path: '/about', title: 'About'},
     {path: '/contact', title: 'Contact'}
   ]

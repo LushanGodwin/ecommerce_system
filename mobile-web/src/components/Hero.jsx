@@ -1,5 +1,6 @@
 import React from "react";
 import welcomePng from "../assets/bg.png";
+import welcomePng1 from "../assets/image.png";
 import { FaArrowRightLong } from "react-icons/fa6";
 
 export default function Hero() {
@@ -11,7 +12,7 @@ export default function Hero() {
         style={{ backgroundImage: `url(${welcomePng})` }}
       >
         {/* Overlay */}
-        <div className="absolute inset-0 bg-black/40"></div>
+        <div className="absolute inset-0 bg-black/10"></div>
 
         {/* Text Content */}
         <div className="relative text-white max-w-xs">
